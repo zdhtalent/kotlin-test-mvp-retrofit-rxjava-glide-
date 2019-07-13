@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:minHeight="@dimen/dp_200">
+    <ImageView
+            android:id="@+id/girl_img"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="@dimen/dp_180"
+            android:layout_marginStart="@dimen/dp_20"
+            android:src="@mipmap/avatar"
+            android:layout_centerVertical="true"/>
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="名称：aaa"
+            android:textSize="@dimen/sp_15"
+            android:layout_toRightOf="@+id/girl_img"
+            android:layout_marginStart="@dimen/dp_30"/>
+
+    <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/dp_50"
+            android:text="日期：2018-05-01"
+            android:textSize="@dimen/sp_15"
+            android:layout_toRightOf="@+id/girl_img"
+            android:layout_marginStart="@dimen/dp_30"/>
+
+    <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/dp_80"
+            android:text="类型：福利"
+            android:textSize="@dimen/sp_15"
+            android:layout_toRightOf="@+id/girl_img"
+            android:layout_marginStart="@dimen/dp_30"/>
+
+
+
+</RelativeLayout>

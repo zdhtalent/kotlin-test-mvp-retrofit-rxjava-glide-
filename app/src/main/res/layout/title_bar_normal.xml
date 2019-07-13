@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/app_black">
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="@dimen/dp_31"
+        android:layout_height="@dimen/dp_41"
+        android:layout_marginStart="@dimen/dp_19"
+        android:layout_gravity="left"
+        android:src="@drawable/back_btn_selector"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:padding="@dimen/dp_10"
+        android:contentDescription="@null" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_19"
+        android:id="@+id/bar_title"
+        fontPath="fonts/NotoSansHans-Regular.ttf"
+        tools:ignore="MissingPrefix"
+        />
+</android.support.v7.widget.Toolbar>

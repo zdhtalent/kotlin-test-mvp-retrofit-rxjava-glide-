@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity">
+
+    <include
+            android:id="@+id/title_bar"
+            layout="@layout/title_bar_normal"/>
+
+    <Button
+            android:id="@+id/main_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_bar"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="listview"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:background="@color/app_gray"/>
+
+    <Button
+            android:id="@+id/main_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_btn1"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="recycleView "
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:background="@color/app_gray"/>
+
+    <Button
+            android:id="@+id/main_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_btn2"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="gridview "
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:background="@color/app_gray"/>
+
+    <Button
+            android:id="@+id/main_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_btn3"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="viewpaper+fragment "
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:background="@color/app_gray"/>
+
+    <Button
+            android:id="@+id/main_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_btn4"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="mvp网络请求框架"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:background="@color/app_gray"/>
+
+    <Button
+            android:id="@+id/main_btn6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_btn5"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="glide图片加载"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:background="@color/app_gray"/>
+
+</android.support.constraint.ConstraintLayout>
